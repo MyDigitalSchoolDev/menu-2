@@ -1,0 +1,145 @@
+body {
+  background-color: #0f1116;
+}
+
+/*
+.first{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.gsap-test{
+    position: absolute;
+}
+.section_gsap{
+    position: relative;
+}
+
+.active{
+    transform: scale(10.10);
+}
+
+.overlay{
+    position: sticky;
+    width: calc(100vw + 4px);
+    height: calc(100vh + 4px);
+    top: -2px;
+    left: -2px;
+    z-index: 20;
+    overflow: hidden;
+    contain: layout;
+    pointer-events: none;
+    margin-top: -1px;
+    max-width: 100vw;
+
+    svg{
+    contain: layout;
+    min-height: 101%;
+    min-width: 101%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+.second{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -10vh;
+    margin-bottom: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+    contain: layout;
+    background-color: brown;
+}*/
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav .btn_menu {
+  background-color: #0000;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  font-size: 32px;
+  line-height: 48px;
+  pointer-events: all;
+  text-transform: uppercase;
+  color: white;
+  font: normal 32px/48px "NeuePlak-Black",-apple-system,BlinkMacSystemFont,Lato,"Segoe UI",Verdana,Arial,sans-serif;
+}
+
+nav .btn_menu .icon {
+  position: relative;
+  margin-right: 16px;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+nav .btn_menu .icon span {
+  display: block;
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  background: white;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+nav .btn_menu .icon span:nth-child(1) {
+  top: 5px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+nav .btn_menu .icon span:nth-child(2) {
+  top: 19px;
+}
+
+nav .btn_menu:hover span:nth-child(1) {
+  -webkit-transform: rotate(90deg) translate(-25%, -300%);
+          transform: rotate(90deg) translate(-25%, -300%);
+}
+
+nav .btn_menu:hover span:nth-child(2) {
+  -webkit-transform: rotate(180deg) translate(-25%, 80%);
+          transform: rotate(180deg) translate(-25%, 80%);
+}
+/*# sourceMappingURL=main.css.map */
